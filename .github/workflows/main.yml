@@ -4,6 +4,8 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      - name: step1
+      - name: checkout
+        uses: actions/checkout@v5
+      - name: step machin
         run: ls -l -a
   
